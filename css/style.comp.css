@@ -1,0 +1,103 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif; }
+
+body {
+  box-sizing: border-box;
+  letter-spacing: 1.6px; }
+
+.border-round {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 2px solid #fff; }
+
+.p-default {
+  padding: 0 10rem; }
+
+.section-about {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 30rem;
+  margin: 5rem 0; }
+  .section-about h1 {
+    font-size: 3rem;
+    font-family: "Playfair Display", serif; }
+  .section-about .text-center {
+    width: 50%;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #727272; }
+
+.section-time {
+  background-color: red;
+  height: 60rem;
+  display: flex; }
+  .section-time__item {
+    display: flex; }
+
+.header {
+  height: 67rem;
+  background-color: #636363;
+  color: #fff; }
+  .header__container {
+    line-height: 6rem;
+    text-align: center; }
+    .header__container--text {
+      margin: 15rem 0; }
+      .header__container--text h3 {
+        text-transform: uppercase; }
+      .header__container--text h2,
+      .header__container--text p {
+        font-family: "Playfair Display", serif;
+        font-size: 4rem; }
+      .header__container--text p {
+        font-style: italic; }
+    .header__container--icon-down {
+      position: relative; }
+      .header__container--icon-down i {
+        font-size: 1.6rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%); }
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem; }
+  .header__menu .logo__text {
+    width: 9rem;
+    height: 3.5rem; }
+  .header__menu .navbar__list ul {
+    font-size: 1.6rem;
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500; }
+  .header__menu .logo__icons {
+    font-size: 1.6rem; }
+    .header__menu .logo__icons-item:nth-child(even) {
+      margin: 0 2rem; }

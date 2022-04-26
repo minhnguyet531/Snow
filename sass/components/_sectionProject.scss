@@ -1,0 +1,50 @@
+.project {
+    &__container {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    &__title {
+        position: relative;
+        padding: 10rem 0;
+        margin-bottom: 5rem;
+        text-align: center;
+        font-size: 2rem;
+
+        h3 {
+            position: absolute;
+            color: $color-grey;
+            width: 50%;
+            font-size: 1.6rem;
+            margin-top: 3rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__photo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        justify-items: center;
+        &--item {
+            width: 32rem;
+            height: 22rem;
+        }
+    }
+    &__text {
+        width: 32rem;
+        height: 22rem;
+        background-color: $color-bg-grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        font-size: 2rem;
+        color: $color-white;
+    }
+}

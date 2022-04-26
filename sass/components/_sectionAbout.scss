@@ -1,0 +1,21 @@
+.section-about {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
+    margin: 5rem 0;
+
+    h1 {
+        font-size: 3rem;
+        font-family: "Playfair Display", serif;
+    }
+
+    .text-center {
+        width: 50%;
+        text-align: center;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        color: $color-grey;
+    }
+}

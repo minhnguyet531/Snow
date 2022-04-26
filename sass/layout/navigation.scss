@@ -1,0 +1,27 @@
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    .logo__text {
+        width: 9rem;
+        height: 3.5rem;
+    }
+
+    .navbar__list ul {
+        font-size: 1.6rem;
+        list-style: none;
+        display: flex;
+        gap: 5rem;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+    }
+
+    .logo__icons {
+        font-size: 1.6rem;
+        &-item:nth-child(even) {
+            margin: 0 2rem;
+        }
+    }
+}
